@@ -333,13 +333,13 @@ static NSString * const YGLoginEULAAgreedKey = @"com.yaga.login.eulaAgreed";
 
 - (void)userAgreementTapped {
     YGWebViewController *controller = [[YGWebViewController alloc] initWithTitle:@"User Agreement"
-                                                                       URLString:@"https://app.i32823wk.link/users"];
+                                                                       URLString:@"https://sites.google.com/view/yagausers/users"];
     [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (void)privacyPolicyTapped {
     YGWebViewController *controller = [[YGWebViewController alloc] initWithTitle:@"Privacy Agreement"
-                                                                       URLString:@"https://app.i32823wk.link/privacy"];
+                                                                       URLString:@"https://sites.google.com/view/yagaprivacy/privacy"];
     [self.navigationController pushViewController:controller animated:YES];
 }
 
